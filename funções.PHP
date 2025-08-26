@@ -4,12 +4,11 @@ function titulo (){
 	echo("calculando valores: <br/>");
 }
 
-$resp = $num1+$num2;
-function somaValor($num1,$num2){
-	$num1=10; $num2=10;
+function somaValor($num1,$num2){	
+	$resp = $num1+$num2;
 	echo("A soma de $num1 e $num2 é $resp");
 }
-
+$valor1=10; $valor2=20;
 titulo();
-somaValor();
+somaValor($valor1,$valor2);
 ?>
